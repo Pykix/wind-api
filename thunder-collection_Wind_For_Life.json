@@ -1,0 +1,298 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Wind For Life",
+    "dateExported": "2023-01-08T15:04:12.023Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "3488a8a3-9ec9-4121-bb5d-539dadd82acd",
+            "name": "Anemometer CRUD",
+            "containerId": "",
+            "created": "2023-01-06T16:23:50.298Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "3ae0bdb3-61a9-4fcd-bcbd-814145c22ac2",
+            "name": "Wind Reading",
+            "containerId": "",
+            "created": "2023-01-06T17:56:05.914Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "854f1129-6a69-40c2-8dfb-2c0068b644f8",
+            "name": "Authentication",
+            "containerId": "",
+            "created": "2023-01-06T20:37:23.360Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "f9b37509-1de4-42a3-b07e-65ace04a28dd",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3ae0bdb3-61a9-4fcd-bcbd-814145c22ac2",
+            "name": "List all wind reading",
+            "url": "http://localhost:8000/api/wind-reading",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2023-01-08T14:12:30.907Z",
+            "modified": "2023-01-08T15:03:20.371Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1362ca3b-22dd-4d9a-95c3-07299134e03c",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3ae0bdb3-61a9-4fcd-bcbd-814145c22ac2",
+            "name": "Create wind reading",
+            "url": "http://localhost:8000/api/wind-reading/",
+            "method": "POST",
+            "sortNum": 7500,
+            "created": "2023-01-08T14:14:21.357Z",
+            "modified": "2023-01-08T15:03:26.092Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"anemometer\": 1,\n    \"wind_speed\": 6.5,\n    \"wind_direction\": 120.0,\n    \"reading_time\": \"2023-01-14T11:05:39+01:00\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "05509c4a-1a8c-4ef3-8d5d-71d354f141c7",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3488a8a3-9ec9-4121-bb5d-539dadd82acd",
+            "name": "List Anemometers",
+            "url": "http://localhost:8000/api/anemometers/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-01-06T16:14:32.331Z",
+            "modified": "2023-01-08T15:02:40.666Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b20679b6-7796-4909-a654-bd7a761f6c30",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3ae0bdb3-61a9-4fcd-bcbd-814145c22ac2",
+            "name": "List all wind reading form an Anemometer",
+            "url": "http://localhost:8000/api/anemometer/1/wind-reading",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-01-06T17:56:11.239Z",
+            "modified": "2023-01-08T15:03:31.852Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1e9d9019-30ac-41c1-baca-fbd3876dd9b8",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3488a8a3-9ec9-4121-bb5d-539dadd82acd",
+            "name": "Retrieve Anemometer",
+            "url": "http://localhost:8000/api/anemometers/4/",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-01-06T16:24:10.683Z",
+            "modified": "2023-01-08T15:02:47.309Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "10c50676-13fb-4aaf-833a-ccbd1c1d715a",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3488a8a3-9ec9-4121-bb5d-539dadd82acd",
+            "name": "Delete Anemometer",
+            "url": "http://localhost:8000/api/anemometers/8",
+            "method": "DELETE",
+            "sortNum": 17500,
+            "created": "2023-01-06T16:25:13.989Z",
+            "modified": "2023-01-08T15:02:54.050Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "17a3a738-3ab3-4ce1-b0de-a230355231fd",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3488a8a3-9ec9-4121-bb5d-539dadd82acd",
+            "name": "Update Anemometer",
+            "url": "http://localhost:8000/api/anemometers/5/",
+            "method": "PATCH",
+            "sortNum": 18750,
+            "created": "2023-01-06T16:26:29.027Z",
+            "modified": "2023-01-08T15:03:03.688Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"New Name for Me Again\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7c3ad908-96ed-4653-b4ca-6be81a6fc615",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3488a8a3-9ec9-4121-bb5d-539dadd82acd",
+            "name": "Create Anemometer",
+            "url": "http://localhost:8000/api/anemometers/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-01-06T16:15:15.546Z",
+            "modified": "2023-01-08T15:03:10.102Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"New Anemometer Again and Again\",\n    \"coordinates\": \"POINT(2.23 -1.23)\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "99607a51-d3d5-4e43-9972-ceaa83402504",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3ae0bdb3-61a9-4fcd-bcbd-814145c22ac2",
+            "name": "List all wind reading by location",
+            "url": "http://localhost:8000/api/wind-statistics/?latitude=2.3&longitude=-12.3&radius=10",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-01-06T21:24:49.081Z",
+            "modified": "2023-01-08T15:03:43.580Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [
+                {
+                    "name": "latitude",
+                    "value": "2.3",
+                    "isPath": false
+                },
+                {
+                    "name": "longitude",
+                    "value": "-12.3",
+                    "isPath": false
+                },
+                {
+                    "name": "radius",
+                    "value": "10",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "279126eb-17c7-450e-a362-1801d39702cd",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "3488a8a3-9ec9-4121-bb5d-539dadd82acd",
+            "name": "List Anemometers with filter",
+            "url": "http://localhost:8000/api/anemometers/?tags=Perpignan",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-01-06T16:14:46.785Z",
+            "modified": "2023-01-08T15:03:14.806Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Token 23debdb9888b1561785d572a22cee52079feaee1"
+                }
+            ],
+            "params": [
+                {
+                    "name": "tags",
+                    "value": "Perpignan",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f57725f1-a0e4-43fe-bdc5-be8449c959f2",
+            "colId": "892dd22f-ea16-4dce-ab8b-1a68edc70874",
+            "containerId": "854f1129-6a69-40c2-8dfb-2c0068b644f8",
+            "name": "Get Auth Token",
+            "url": "http://localhost:8000/auth-token/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-01-06T20:37:34.967Z",
+            "modified": "2023-01-08T14:50:36.305Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"root\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

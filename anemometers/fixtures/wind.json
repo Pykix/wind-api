@@ -1,0 +1,122 @@
+[
+    {
+        "model": "anemometers.windreading",
+        "pk": 1,
+        "fields": {
+            "anemometer": 1,
+            "wind_speed": 1.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-08T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 2,
+        "fields": {
+            "anemometer": 1,
+            "wind_speed": 6.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-08T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 3,
+        "fields": {
+            "anemometer": 1,
+            "wind_speed": 3.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-11T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 4,
+        "fields": {
+            "anemometer": 1,
+            "wind_speed": 13.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-12T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 5,
+        "fields": {
+            "anemometer": 1,
+            "wind_speed": 0.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-06T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 6,
+        "fields": {
+            "anemometer": 1,
+            "wind_speed": 6.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-06T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 7,
+        "fields": {
+            "anemometer": 2,
+            "wind_speed": 1.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-06T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 8,
+        "fields": {
+            "anemometer": 2,
+            "wind_speed": 6.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-07T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 9,
+        "fields": {
+            "anemometer": 3,
+            "wind_speed": 3.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-03T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 10,
+        "fields": {
+            "anemometer": 3,
+            "wind_speed": 13.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-06T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 11,
+        "fields": {
+            "anemometer": 4,
+            "wind_speed": 0.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-06T10:05:39Z"
+        }
+    },
+    {
+        "model": "anemometers.windreading",
+        "pk": 12,
+        "fields": {
+            "anemometer": 5,
+            "wind_speed": 6.5,
+            "wind_direction": 120.0,
+            "reading_time": "2023-01-06T10:05:39Z"
+        }
+    }
+]

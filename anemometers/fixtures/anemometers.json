@@ -1,0 +1,38 @@
+[
+    {
+        "model": "anemometers.anemometer",
+        "pk": 1,
+        "fields": {
+            "name": "Rue Rousseau",
+            "coordinates": "POINT(-12.2 2.34)",
+            "tags": [1]
+        }
+    },
+    {
+        "model": "anemometers.anemometer",
+        "pk": 2,
+        "fields": {
+            "name": "Avenue Bruges",
+            "coordinates": "POINT(-12.1 2.34)",
+            "tags": [2]
+        }
+    },
+    {
+        "model": "anemometers.anemometer",
+        "pk": 3,
+        "fields": {
+            "name": "Rue Rousseau",
+            "coordinates": "POINT(-12.2 1.23)",
+            "tags": [1, 3]
+        }
+    },
+    {
+        "model": "anemometers.anemometer",
+        "pk": 4,
+        "fields": {
+            "name": "Rue Rousseau",
+            "coordinates": "POINT(-12.2 -4.94)",
+            "tags": []
+        }
+    }
+]

@@ -1,0 +1,20 @@
+# https://docs.djangoproject.com/en/4.1/
+Django>=4.1.5,<4.2
+
+# https://www.psycopg.org
+psycopg2-binary>=2.9.5,<3.10.0
+
+# https://www.django-rest-framework.org
+djangorestframework>=3.14,<3.15
+
+# https://gdal.org/api/python_bindings.html
+gdal==3.2.2.1
+
+# https://pygeos.readthedocs.io/en/latest/installation.html
+pygeos
+
+# https://django-environ.readthedocs.io/en/latest/
+django-environ
+
+# https://django-filter.readthedocs.io/en/stable/index.html
+django-filter
